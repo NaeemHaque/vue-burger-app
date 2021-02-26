@@ -2,13 +2,15 @@
   <v-app>
 
     <v-main>
-      <sidebar/>
+      <!-- <sidebar/> -->
+      <home/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import sidebar from './components/sidebar'
+// import sidebar from './components/sidebar'
+import home from './views/Home'
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     //
   }),
   components: {
-    sidebar
+    // sidebar
+    home
   }
 }
 </script>
