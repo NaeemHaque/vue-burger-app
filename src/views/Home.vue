@@ -43,7 +43,7 @@
                 <v-chip outlined class="ma-1" small >Sugers - 18g</v-chip>
                 <v-chip outlined class="ma-1 mr-0" small >Salt - 1g</v-chip>
 
-                <div>The classic burger is an all time BBg fabourite! This is easy homemade beef burger receipe gives you delicious patties, packed with onions and herbs for extra flavour, that are perfect for topping with cheese, lettus and tomato and sandwitch between floury buns.</div>
+                <div class="my-2">The classic burger is an all time BBg fabourite! This is easy homemade beef burger receipe gives you delicious patties, packed with onions and herbs for extra flavour, that are perfect for topping with cheese, lettus and tomato and sandwitch between floury buns.</div>
               </v-card-text>
 
               <v-card-actions>
