@@ -2,15 +2,14 @@
   <v-app>
 
     <v-main>
-      <!-- <sidebar/> -->
-      <home/>
+      <navbar></navbar>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
 <script>
-// import sidebar from './components/sidebar'
-import home from './views/Home'
+import navbar from './components/navbar'
 
 export default {
   name: 'App',
@@ -19,8 +18,7 @@ export default {
     //
   }),
   components: {
-    // sidebar
-    home
+    navbar
   }
 }
 </script>
