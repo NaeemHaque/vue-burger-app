@@ -1,6 +1,8 @@
 <template>
     <v-toolbar dense flat class="pa-3 mb-5">
 
+      <v-app-bar-nav-icon class="hidden-sm-and-up"></v-app-bar-nav-icon>
+
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
