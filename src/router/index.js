@@ -4,6 +4,7 @@ import Home from '../components/home.vue'
 import Products from '../components/products'
 import Recipe from '../components/recipe'
 import About from '../components/about'
+import RecipeDetails from '../components/recipeDetails'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,12 @@ const routes = [
     path: '/recipe',
     name: 'Recipe',
     component: Recipe
+  },
+  {
+    path: '/recipe/:id',
+    nmame: 'RecipeDetails',
+    props: true,
+    component: RecipeDetails
   },
   {
     path: '/about',

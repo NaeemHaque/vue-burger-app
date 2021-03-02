@@ -78,11 +78,7 @@
                        <v-toolbar flat height="30">
                          <div></div>
                           <v-spacer></v-spacer>
-                          <v-chip outlined class="my-1" small rounded>
-                            <span>376</span>
-                            <br>
-                            <span>kcal</span>
-                          </v-chip>
+                          <v-chip outlined class="my-1" small>376 kcal</v-chip>
                        </v-toolbar>
 
                       <v-img height="180" :src="burger.img" class="h-auto"></v-img>

@@ -4,7 +4,7 @@
       <v-app-bar-nav-icon class="hidden-sm-and-up"></v-app-bar-nav-icon>
 
       <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
+        <v-icon>mdi-hamburger</v-icon>
       </v-btn>
 
       <v-btn to="/" depressed color="white" class="text-capitalize" active-class="green--text">Home</v-btn>
