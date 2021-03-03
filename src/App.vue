@@ -7,6 +7,8 @@
         <v-list-item v-for="item in menuItems" :key="item.title" :to="item.link">
           <v-list-item-content>{{ item.title }}</v-list-item-content>
         </v-list-item>
+        <v-list-item to="/login">Login</v-list-item>
+        <v-list-item to="/signup">Signup</v-list-item>
 
       </v-list>
     </v-navigation-drawer>
@@ -16,10 +18,11 @@
 
       <v-app-bar-nav-icon  @click="sideNav = !sideNav" class="hidden-sm-and-up"></v-app-bar-nav-icon>
 
-      <!-- <v-btn icon class="hidden-xs-only">
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn> -->
-      <img src="https://img.icons8.com/color/48/000000/burger-king-logo.png" class="mr-2"/>
+      <img src="https://img.icons8.com/color/48/000000/burger-king-logo.png" class="mr-1"/>
+      <div class="hidden-sm-and-up">
+        <span class="headline">Burger</span>
+        <span class="title">King</span>
+      </div>
 
       <v-btn
       depressed color="white"
@@ -32,8 +35,8 @@
       </v-btn>
 
       <v-spacer></v-spacer>
-      <v-btn depressed class="text-capitalize white--text mr-2 pa-5 btn-style rounded-lg" color="#F06C4E">Login</v-btn>
-      <v-btn depressed class="text-capitalize btn-style rounded-lg" style="color: #F06C4E">Signup</v-btn>
+      <v-btn depressed  to="/login" class="text-capitalize white--text mr-2 pa-5 btn-style rounded-lg hidden-xs-only" color="#F06C4E">Login</v-btn>
+      <v-btn depressed  to="/signup" class="text-capitalize btn-style rounded-lg hidden-xs-only" style="color: #F06C4E">Signup</v-btn>
 
     </v-toolbar>
 

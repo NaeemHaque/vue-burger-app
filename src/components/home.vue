@@ -20,6 +20,7 @@
           class="px-5"
           >Buy Now</v-btn>
         </v-row>
+
     </v-carousel-item>
   </v-carousel>
   <div>
@@ -38,9 +39,6 @@ export default {
         },
         {
           src: 'burger-bg-2.jpg'
-        },
-        {
-          src: 'burger-bg-3.jpg'
         },
         {
           src: 'burger-bg-4.jpg'

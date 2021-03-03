@@ -2,15 +2,10 @@
   <v-app>
       <template class="h-auto">
         <v-row cols="12">
-          <v-col cols="1" class="my-auto hidden-sm-and-down">
-            <v-btn depressed visibility="md">
-              <v-icon>mdi-dots-square</v-icon>
-            </v-btn>
-          </v-col>
 
-          <v-col sm="12" md="5" wrap flex>
+          <v-col sm="12" md="6">
             <template class="h-auto">
-                <v-card outlined height="820" class="rounded-xl h-auto">
+                <v-card outlined height="840" class="rounded-xl h-auto ml-5">
                   <v-toolbar flat>
                     <div></div>
                     <v-spacer></v-spacer>
@@ -34,7 +29,7 @@
                 <v-chip outlined class="ma-1" small >Sugers - 18g</v-chip>
                 <v-chip outlined class="ma-1" small >Salt - 1g</v-chip>
 
-                <div class="my-3">{{ bigburger.description }}</div>
+                <div class="my-2">{{ bigburger.description }}</div>
               </v-card-text>
 
               <v-card-actions class="mb-3">
@@ -74,7 +69,7 @@
               <v-row cols="12" class="mr-1" wrap flex >
                 <v-col md="6" sm="12" v-for="burger in burgers" :key="burger.id">
                   <template class="h-auto">
-                    <v-card outlined height="400" class="rounded-xl h-auto">
+                    <v-card outlined height="410" class="rounded-xl h-auto">
                        <v-toolbar flat height="30">
                          <div></div>
                           <v-spacer></v-spacer>
