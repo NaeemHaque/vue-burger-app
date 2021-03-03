@@ -16,9 +16,10 @@
 
       <v-app-bar-nav-icon  @click="sideNav = !sideNav" class="hidden-sm-and-up"></v-app-bar-nav-icon>
 
-      <v-btn icon class="hidden-xs-only">
+      <!-- <v-btn icon class="hidden-xs-only">
         <v-icon>mdi-magnify</v-icon>
-      </v-btn>
+      </v-btn> -->
+      <img src="https://img.icons8.com/color/48/000000/burger-king-logo.png" class="mr-2"/>
 
       <v-btn
       depressed color="white"

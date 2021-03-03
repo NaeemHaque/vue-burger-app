@@ -1,4 +1,26 @@
 <template>
+  <v-card
+    class="mx-auto"
+    max-width="600"
+  >
+  <v-card-title>Burger Name</v-card-title>
+    <v-img
+      class="white--text align-end"
+      height="200px"
+      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+    >
+    </v-img>
+
+    <v-card-text class="text--primary">
+      <div class="title">Recipe</div>
+
+      <div>Upcoming After adding Firebase..</div>
+    </v-card-text>
+
+  </v-card>
+</template>
+<!--
+<template>
 <v-container>
 
     <v-row  wrap>
@@ -16,8 +38,9 @@
     </v-row>
 </v-container>
 </template>
-
+-->
 <script>
+
 export default {
   props: ['id'],
   data () {
