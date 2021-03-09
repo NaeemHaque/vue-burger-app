@@ -7,7 +7,7 @@
         <v-list-item v-for="item in menuItems" :key="item.title" :to="item.link">
           <v-list-item-content>{{ item.title }}</v-list-item-content>
         </v-list-item>
-        <v-list-item to="/login">Login</v-list-item>
+        <v-list-item to="/signin">Login</v-list-item>
         <v-list-item to="/signup">Signup</v-list-item>
 
       </v-list>
@@ -35,7 +35,7 @@
       </v-btn>
 
       <v-spacer></v-spacer>
-      <v-btn depressed  to="/login" class="text-capitalize white--text mr-2 pa-5 btn-style rounded-lg hidden-xs-only" color="#F06C4E">Login</v-btn>
+      <v-btn depressed  to="/signin" class="text-capitalize white--text mr-2 pa-5 btn-style rounded-lg hidden-xs-only" color="#F06C4E">Login</v-btn>
       <v-btn depressed  to="/signup" class="text-capitalize btn-style rounded-lg hidden-xs-only" style="color: #F06C4E">Signup</v-btn>
 
     </v-toolbar>

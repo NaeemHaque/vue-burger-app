@@ -5,6 +5,8 @@ import Products from '../components/products'
 import Recipe from '../components/recipe'
 import About from '../components/about'
 import RecipeDetails from '../components/recipeDetails'
+import Signin from '../components/user/signin'
+import Signup from '../components/user/signup'
 
 Vue.use(VueRouter)
 
@@ -34,6 +36,16 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About
+  },
+  {
+    path: '/signin',
+    name: 'Signin',
+    component: Signin
+  },
+  {
+    path: '/signup',
+    name: 'Signup',
+    component: Signup
   }
 ]
 
